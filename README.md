@@ -60,3 +60,34 @@ npm run dev
 ```bash
 npm run preview
 ```
+
+## Features
+
+### **Task Management**
+- **Add a Task**:  
+  Enter a task name and set a priority (low, medium, high). Click the "Add Task" button to save it.
+- **Edit Task**:  
+  Edit a task’s due date or priority from the task details view.
+- **Delete Task**:  
+  Remove a task from the list by clicking the "Delete" button.
+- **Mark as Completed**:  
+  Mark a task as completed by checking the checkbox next to the task.
+- **Filter Tasks**:  
+  Filter tasks based on priority or display tasks due today.
+
+### **Weather Widget**
+- Automatically fetches the user's location using the browser's geolocation API.
+- Displays the current weather and an hourly forecast based on the user's location.
+
+---
+
+## Troubleshooting
+
+### **Problem with Geolocation**
+- If the browser does not support geolocation or if the user denies location access, the weather widget may not display correctly.
+
+### **Redux Issues**
+- Ensure that Redux is properly set up in your app.
+- If you encounter issues, refer to the [Redux documentation](https://redux.js.org) or look into specific problems related to Redux DevTools.
+
+---
