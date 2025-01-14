@@ -38,7 +38,7 @@ const TaskList = (props) => {
       return tasks.filter((task) => task.priority === "high");
     }
 
-    return tasks; 
+    return tasks;
   };
 
   const filteredTasks = filterTasks();
@@ -51,9 +51,9 @@ const TaskList = (props) => {
             dispatch(selectTask(task));
           }}
           key={task.id}
-          className="flex items-center justify-between p-4 mb-2 bg-gray-800 text-gray-200 rounded-lg shadow-md"
+          className="flex flex-col gap-2 p-4 mb-4 bg-gray-800 text-gray-200 rounded-lg shadow-md sm:flex-row sm:items-center sm:justify-between"
         >
-          <div className="flex items-center gap-4">
+          <div className="flex flex-row gap-2 sm:flex-row sm:items-center sm:gap-4">
             <input
               type="checkbox"
               checked={task.completed}
@@ -75,7 +75,7 @@ const TaskList = (props) => {
               )}
             </div>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
             <button
               onClick={() => {
                 setSelectedTask(task);
