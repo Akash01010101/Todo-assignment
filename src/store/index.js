@@ -2,7 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import authReducer from "./slices/authSlice";
 import todoReducer from "./slices/todoSlice";
 import weatherReducer from "./slices/weatherSlice";
-import { loadState, saveState } from "./localStorage.js";
+import { loadState, saveState } from "./localstorage.js";
 import debounce from "lodash.debounce";
 
 const preloadedState = loadState();
