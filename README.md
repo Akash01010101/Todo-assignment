@@ -33,8 +33,8 @@ Before running the app, ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/react-todo-app.git
-cd react-todo-app 
+git clone https://github.com/Akash01010101/Todo-assignment
+cd Todo-assignment
 ```
 
 ### Install the Dependencies
