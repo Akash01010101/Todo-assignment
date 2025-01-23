@@ -106,7 +106,7 @@ const App = () => {
             <p className="text-2xl font-bold">{tasks.length}</p>
           </div>
           <ClockCard />
-          <button className="mt-10 p-5 bg-slate-500 hover:bg-gray-500 rounded" onClick={()=>{setIsSidebarOpen(false)}}> Close Menu</button>
+          <button className="lg:hidden mt-10 p-5 bg-slate-500 hover:bg-gray-500 rounded" onClick={()=>{setIsSidebarOpen(false)}}> Close Menu</button>
         </div>
 
         <div className="flex-1 p-8">
